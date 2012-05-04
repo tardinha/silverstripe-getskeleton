@@ -25,6 +25,10 @@ $MetaTags
 		</div>
 	</div>
 
+	<div class="container">
+		<% include DropdownNavigation %>
+	</div>
+
 	<div id="layout">
 		<div class="container">
 			$Layout
