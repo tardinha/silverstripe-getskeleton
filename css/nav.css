@@ -1,0 +1,262 @@
+#navcontainertop {
+width:960px;
+margin:auto;
+margin-top:15px;
+}
+
+#nav {
+width:960px;
+margin:auto;
+overflow:hidden;
+margin-top:15px;
+}
+#nav a {
+cursor:pointer;
+}
+
+
+.bg {
+background: url(/new/images/nav2011/bottomgrad.png) no-repeat;
+height:67px;
+}
+
+.bgtop {
+background: url(/new/images/nav2011/bottomgrad.png) no-repeat;
+height:44px;
+}
+
+#main {
+margin:auto;
+width:960px;
+border-top: 6px solid #FFFFFF;
+}
+
+#subnav {
+width:830px;
+margin-left:104px;
+margin-top:0px;
+text-align: center;
+color:#484848;
+font-size:12px;
+padding:0px;
+}
+
+
+#subnav li {
+position:relative;
+top:5px;
+display: inline;
+list-style-type: none;
+margin-right: 20px;
+}
+
+#subnav a {
+text-align: center;
+color:#484848;
+font-size:12px;
+text-decoration: none;
+}
+
+#subnav a:hover {
+font-size:12px;
+text-decoration: none;
+border-bottom: 7px solid #484848;
+}
+
+#subnav a.active {
+border-bottom: 7px solid #484848;
+}
+
+
+#subnav .current {
+border-bottom: 7px solid #484848;
+}
+
+
+
+.space {
+width:104px;
+text-align: center;
+float:left;
+clear:both;
+}
+
+
+#primarynav {
+margin:0px;
+padding:0;
+list-style: none;
+}
+
+#primarynav li {
+float: left;
+}
+
+#primarynav a * {
+  display: none;
+}
+
+#primarynav a,
+#primarynav a .hover {
+height: 44px;
+position: relative;
+display: block;
+background: url(/new/images/nav2011/navallflat.png) 0 0 no-repeat;
+}
+
+
+#primarynav #nav-logo {
+  background-position: 0px 0;
+  width: 104px;
+}
+
+
+
+#primarynav #nav-bathrooms {
+  background-position: -104px 0px;
+  width: 113px;
+}
+
+#primarynav .highlight #nav-bathrooms:hover,
+#primarynav #nav-bathrooms .hover {
+  background-position: -104px -44px;
+}
+
+#primarynav li.current #nav-bathrooms {
+  background-position: -104px -44px;
+}
+
+
+
+#primarynav #nav-plumbing {
+  background-position: -217px 0px;
+  width: 93px;
+}
+
+#primarynav .highlight #nav-plumbing:hover,
+#nav #nav-plumbing .hover {
+  background-position: -217px -44px;
+}
+
+#primarynav li.current #nav-plumbing {
+  background-position: -217px -44px;
+}
+
+
+
+#primarynav #nav-specialised {
+  background-position: -310px 0px;
+  width: 185px;
+}
+
+#primarynav .highlight #nav-specialised:hover,
+#primarynav #nav-specialised .hover {
+  background-position: -310px -44px;
+   width: 185px;
+}
+
+#primarynav li.current #nav-specialised {
+background-position: -310px -44px;
+width: 185px;
+}
+
+
+
+#primarynav #nav-sustainability {
+  background-position: -495px 0px;
+  width: 121px;
+}
+
+#primarynav .highlight #nav-sustainability:hover,
+#primarynav #nav-sustainability .hover {
+  background-position: -495px -44px;
+   width: 120px;
+}
+
+#primarynav  li.current #nav-sustainability {
+  background-position: -495px -44px;
+  width: 121px;
+}
+
+
+
+#primarynav #nav-aboutus {
+  background-position: -616px 0px;
+  width: 98px;
+}
+
+#primarynav .highlight #nav-aboutus:hover,
+#primarynav #nav-aboutus .hover {
+  background-position: -616px -44px;
+}
+
+#primarynav li.current #nav-aboutus {
+  background-position: -616px -44px;
+  width: 98px;
+}
+
+
+#primarynav #nav-storefinder {
+  background-position: -714px 0px;
+  width: 119px;
+}
+
+#primarynav .highlight #nav-storefinder:hover,
+#primarynav #nav-storefinder .hover {
+  background-position: -714px -44px;
+}
+
+#primarynav li.current #nav-storefinder {
+  background-position: -714px -44px;
+  width: 119px;
+}
+
+#primarynav #nav-myaccount {
+  background-position: -833px 0px;
+  width: 127px;
+}
+
+#primarynav .highlight #nav-myaccount:hover,
+#primarynav #nav-myaccount .hover {
+  background-position: -833px -44px;
+}
+
+#primarynav  li.current #nav-myaccount {
+  background-position: -833px -44px;
+  width: 127px;
+}
+
+#primarynav #nav-myaccountNZ {
+  background-position: -833px 0px;
+  width: 120px;
+}
+
+#primarynav .highlight #nav-myaccountNZ:hover,
+#primarynav #nav-myaccountNZ .hover {
+  background-position: -833px -44px;
+}
+
+#primarynav  li.current #nav-myaccountNZ {
+  background-position: -833px -44px;
+  width: 120px;
+}
+
+/***NZ footer**/
+#footer {color:#333;padding-top:10px;border-top:1px solid #dcdada;width:960px;margin:0 auto 0 auto;font-size:11px;color:#626262;font-weight:bold}
+#footer a{color:#666}
+#footer .section1 {float:left}
+#footer .section2 {float:right}
+
+/***AU Footer**/
+#socialFooter {padding-top:10px;border-top:1px solid #dcdada;width:960px;margin:0 auto 0 auto;font-size:11px;color:#626262;font-weight:bold}
+#socialFooter .section1 {float:left}
+#socialFooter .section2 {float:right;width:265px}
+#socialFooter a {color:#626262;text-decoration:none;}
+#socialFooter p {margin:0 0 10px 0}
+.twitterImg , .facebookImg {float:left}
+.twitterImg {margin-left:15px}
+.dontriskitImg {float:right}
+
+.clear{
+clear:both;
+}
